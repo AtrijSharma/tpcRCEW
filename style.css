@@ -1,0 +1,44 @@
+h1{
+    color: rgb(252, 209, 201);
+    text-align: center;
+    text-shadow:2px 2px rgb(236, 40, 6);
+}
+#list{
+    margin: 220px;
+    text-align: center;
+    
+}
+button{
+    background-color: #868283;
+}
+
+.zoom:hover{
+   
+    transform: scale(1.2);
+    background-color: rgb(231, 235, 236);
+    block-size: 100px;
+    border-color:  red;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    background-size: 20px;
+    
+  }
+  .zoom:hover .hide{
+      visibility: visible;
+  }
+h2{
+    color: rgb(247, 206, 196);
+    text-shadow:2px 2px rgb(223, 10, 3);
+}
+body{
+    background-color: rgb(51, 44, 44);
+}
+img{
+    max-height: 50px;
+    max-width: 100px;
+    
+}
+.hide{
+    visibility: hidden;
+}
